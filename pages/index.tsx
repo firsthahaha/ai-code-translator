@@ -25,10 +25,11 @@ export default function Home() {
       return;
     }
 
-    if (inputLanguage === outputLanguage) {
-      alert('Please select different languages.');
-      return;
-    }
+    // 注释掉，不需要
+    // if (inputLanguage === outputLanguage) {
+    //   alert('Please select different languages.');
+    //   return;
+    // }
 
     if (!inputCode) {
       alert('Please enter some code.');
